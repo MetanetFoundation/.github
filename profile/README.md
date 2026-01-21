@@ -1,90 +1,65 @@
 <div align="center">
 
-# DDID Global Foundation
+# Metanet Foundation
 
-### The Global Standard for Digital Trust
+**Building a Better Internet**
 
-**Nonprofit Certification Authority | BSV Blockchain | Open Standards**
+*Open source infrastructure for an internet where users own their identity, privacy is preserved by default, and value moves freely.*
 
-*Certifying businesses, applications, and smart contracts through blockchain-based, verifiable credentials.*
-
-[Website](https://ddidglobal.org) | [BRC-100 Standard](https://github.com/bitcoin-sv/BRCs/blob/master/wallet/0100.md) | [Contact](mailto:info@ddidglobal.org)
-
----
+[Website](https://metanetfoundation.org) · [Documentation](https://docs.metanetfoundation.org) · [Academy](https://academy.metanetfoundation.org)
 
 </div>
 
-## Mission
+---
 
-DDID Global Foundation is a nonprofit certification authority establishing blockchain-anchored verification of businesses, individuals, applications, and smart contracts. Built on BSV blockchain using vendor-neutral digital identity standards, we're building the trust layer the internet never had.
+## What We're Building
 
-> *The internet developed protocols for communication but never developed a native protocol for trust.*
+The Metanet Foundation develops open source tools for a peer-to-peer web built on the Metanet API (BRC-100) — the unified standard for how wallets and applications communicate.
 
 ---
 
-## The Problem
+## Repositories
 
-**$685 billion lost annually** to digital commerce trust failures—$485B in fraud, $200B in verification costs.
+### SDKs
 
-Centralized identity creates single points of failure. Legacy verification takes weeks at $100+ per check. Platform-based reputation locks users into proprietary ecosystems with 18-33% fees. Cross-border verification remains fragmented and manual.
+Production-ready libraries for Metanet integration with full API coverage: transaction construction, certificate management, identity verification, encryption, and overlay connectivity.
 
----
+- **TypeScript SDK** — Browser and Node.js environments
+- **Go SDK** — High-performance server applications
 
-## The Solution
+### Wallet Toolbox
 
-DDID Global verifies **WHO**, **WHAT**, and **HOW**—enabling peer-to-peer commerce without intermediaries.
+Everything needed to build Metanet-compatible wallets: key derivation, transaction signing, identity certificate handling, and BRC-100 compliance utilities.
 
-| Layer | Function |
-|:------|:---------|
-| **Entity & Individual Identity** | Legal, operational, and compliance verification |
-| **Application Certification** | Security audits, privacy compliance, continuous monitoring |
-| **Smart Contract Verification** | Formal audits, zero-knowledge proofs, vulnerability checks |
+### Overlay Services
 
-Certified entities transact through secure applications executing audited smart contracts—reducing costs 99% and compressing settlement from days to minutes.
+Reference implementations of core infrastructure that makes the Metanet practical:
 
----
+- **Identity Overlay** — Certificate issuance, revocation, reputation, selective disclosure
+- **Transaction Overlay** — UTXO management, broadcasting, merkle proofs
+- **Token Overlay** — Balance indexing, transfer history, metadata services
 
-## Key Benefits
+### Token & Contract Templates
 
-- **Instant verification** — Seconds, not weeks
-- **70% KYC cost reduction** for institutions
-- **Sub-0.1% transaction costs** vs. 3-10% traditional fees
-- **Portable reputation** — Build once, verify everywhere
-- **Privacy-preserving** — Zero-knowledge proofs enable verification without exposing data
+Audited, security-reviewed templates for common patterns:
 
----
-
-## The Model
-
-Businesses donate annually ($2.5K–$100K based on size). Individuals certify free. This cross-subsidy creates network effects where ecosystem value compounds with each participant—no extractive rent-seeking.
-
-All certificates deliver as blockchain-anchored credentials with instant global verification, cryptographic signing capability, and evolving on-chain reputation.
-
----
-
-## Why Nonprofit
-
-- Decisions serve the ecosystem, not shareholders
-- All protocols are open-source and community-governed
-- No competitive conflicts with certified entities
-- 100% of revenue funds infrastructure and accessibility
+- Escrow (two-party and multi-party)
+- Token issuance (fungible and non-fungible)
+- Marketplace contracts
+- Access control and token-gating
 
 ---
 
 ## Get Involved
 
-**Businesses** — Apply for certification to build verified trust with partners and customers
-
-**Developers** — Integrate DDID verification using our open standards
-
-**Validators** — Join our network of trusted verification partners
+- [Documentation](https://docs.metanetfoundation.org) — Start building
+- [Academy](https://academy.metanetfoundation.org) — Get certified
+- [Membership](https://metanetfoundation.org/join) — Join as an organization
 
 ---
 
-<div align="center">
+## License
 
-**Building the trust layer for the global digital economy**
+All Foundation software is released under the [Open BSV License v4](LICENSE).
 
-[ddidglobal.org](https://ddidglobal.org) | [info@ddidglobal.org](mailto:info@ddidglobal.org)
-
-</div>
+---
