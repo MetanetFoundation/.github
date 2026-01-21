@@ -10,7 +10,7 @@
 
 ****
 
-*Setting the Foundation for a Peer-to-Peer Internet.*
+*Metanet: The Peer-to-Peer Commercial Internet.*
 
 [Website](https://metanetfoundation.org) • [BRC-100 Standard](https://brc.dev/100) • [Contact](mailto:info@metanetfoundation.org)
 
